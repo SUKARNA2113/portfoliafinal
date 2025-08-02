@@ -52,7 +52,7 @@ export default function App() {
       <footer id="contact" className="text-center py-10 bg-white/5">
         <h2 className="text-xl font-semibold">Contact Me</h2>
         <p>Email: <a href="mailto:sukarnavikram@gmail.com" className="text-blue-400">sukarnavikram@gmail.com</a></p>
-        <a href="https://instagram.com/Sukku" target="_blank" className="bg-white text-black px-4 py-2 mt-3 inline-block rounded">Instagram</a>
+        <a href="https://www.instagram.com/sukarna._.2113?utm_source=ig_web_button_share_sheet&igsh=eHQ3bWh6OGtoOHZo" target="_blank" className="bg-white text-black px-4 py-2 mt-3 inline-block rounded">Instagram</a>
       </footer>
     </div>
   );
