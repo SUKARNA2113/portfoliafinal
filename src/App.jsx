@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 
-
+// ✅ Custom Card, CardContent, and Button components
 const Card = ({ children, className }) => (
   <div className={`rounded-xl shadow-lg p-4 ${className}`}>{children}</div>
 );
+
 const CardContent = ({ children }) => <div>{children}</div>;
+
 const Button = ({ children, onClick }) => (
   <button
     onClick={onClick}
@@ -62,12 +64,8 @@ function ImageSlider({ images }) {
         transition={{ duration: 0.4 }}
       />
       <div className="flex gap-3">
-        <Button variant="outline" onClick={prevImage}>
-          ⬅ Prev
-        </Button>
-        <Button variant="outline" onClick={nextImage}>
-          Next ➡
-        </Button>
+        <Button onClick={prevImage}>⬅ Prev</Button>
+        <Button onClick={nextImage}>Next ➡</Button>
       </div>
     </div>
   );
